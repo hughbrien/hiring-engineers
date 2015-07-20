@@ -11,9 +11,9 @@ Don't forget to read the **References**.
 
 ### Level 1
 
-* Sign up for Datadog, get the agent reporting metrics from your local machine.
-* Bonus question: what is the agent?
-* Submit an event via the API.
+* Sign up for Datadog, get the agent reporting metrics from your local machine. DONE
+* Bonus question: what is the agent? The Agent is : 
+* Submit an event via the API?  I have submitted several events via the HTTP REST API and the Email Plain Text and Email JSON interfaces. 
 * Get an event to appear in your email inbox (the email address you signed up for the account with)
 
 ### Level 2
