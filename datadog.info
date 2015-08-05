@@ -1,0 +1,124 @@
+===================
+Collector (v 5.4.2)
+===================
+
+  Status date: 2015-08-05 11:46:15 (21s ago)
+  Pid: 79498
+  Platform: Darwin-14.4.0-x86_64-i386-64bit
+  Python Version: 2.7.10
+  Logs: <stderr>, /var/log/datadog/collector.log, syslog:/var/run/syslog
+
+  Clocks
+  ======
+  
+    NTP offset: -0.0067 s
+    System UTC time: 2015-08-05 15:46:36.889259
+  
+  Paths
+  =====
+  
+    conf.d: /opt/datadog-agent/etc/conf.d
+    checks.d: /opt/datadog-agent/agent/checks.d
+  
+  Hostnames
+  =========
+  
+    agent-hostname: desktop.hugenet.com
+    hostname: desktop.hugenet.com
+    socket-fqdn: osxlthbrien.fios-router.home
+  
+  Checks
+  ======
+  
+    ntp
+    ---
+      - Collected 0 metrics, 0 events & 1 service check
+      - Stats: 
+            Memory Before (RSS): 26853376
+            Memory After (RSS): 26853376
+            Difference (RSS): 0
+            Memory Before (VMS): 2584981504
+            Memory After (VMS): 2584981504
+            Difference (VMS): 0
+            
+  
+    disk
+    ----
+      - instance #0 [OK] Last run duration: 0.00037693977356
+      - Collected 16 metrics, 0 events & 1 service check
+      - Stats: 
+            Memory Before (RSS): 26853376
+            Memory After (RSS): 26853376
+            Difference (RSS): 0
+            Memory Before (VMS): 2584981504
+            Memory After (VMS): 2584981504
+            Difference (VMS): 0
+            
+  
+    network
+    -------
+      - instance #0 [OK] Last run duration: 5.07620501518
+      - Collected 15 metrics, 0 events & 1 service check
+      - Stats: 
+            Memory Before (RSS): 26853376
+            Memory After (RSS): 26853376
+            Difference (RSS): 0
+            Memory Before (VMS): 2584981504
+            Memory After (VMS): 2584981504
+            Difference (VMS): 0
+            
+  
+    tcp_check
+    ---------
+      - instance #0 [OK] Last run duration: 0.000296115875244
+      - Collected 0 metrics, 0 events & 2 service checks
+      - Stats: 
+            Memory Before (RSS): 26853376
+            Memory After (RSS): 26853376
+            Difference (RSS): 0
+            Memory Before (VMS): 2584981504
+            Memory After (VMS): 2584981504
+            Difference (VMS): 0
+            
+  
+    http_check
+    ----------
+      - initialize check class [ERROR]: 'while parsing a block collection\n  in "<byte string>", line 6, column 3\ndid not find expected \'-\' indicator\n  in "<byte string>", line 97, column 4'
+  
+  Emitters
+  ========
+  
+    - http_emitter [OK]
+
+===================
+Dogstatsd (v 5.4.2)
+===================
+
+  Status date: 2015-08-05 11:46:31 (6s ago)
+  Pid: 79496
+  Platform: Darwin-14.4.0-x86_64-i386-64bit
+  Python Version: 2.7.10
+  Logs: <stderr>, /var/log/datadog/dogstatsd.log, syslog:/var/run/syslog
+
+  Flush count: 13
+  Packet Count: 0
+  Packets per second: 0.0
+  Metric count: 1
+  Event count: 0
+
+===================
+Forwarder (v 5.4.2)
+===================
+
+  Status date: 2015-08-05 11:46:35 (1s ago)
+  Pid: 79497
+  Platform: Darwin-14.4.0-x86_64-i386-64bit
+  Python Version: 2.7.10
+  Logs: <stderr>, /var/log/datadog/forwarder.log, syslog:/var/run/syslog
+
+  Queue Size: 0 bytes
+  Queue Length: 0
+  Flush Count: 44
+  Transactions received: 17
+  Transactions flushed: 17
+  
