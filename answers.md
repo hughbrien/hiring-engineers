@@ -1,3 +1,11 @@
+One of the key and maybe the most powerful features of #DataDog is that it is the first APM Solution that support #MetaData across the entire solution. DataDog is the King of #MetaAPM.  
+
+What does that really mean:
+
+You can capture EVERYTHING about your application in DataDog with respective to Performnace, Availibility, Business Success.
+
+
+
 Sign up for Datadog, get the agent reporting metrics from your local machine. DONE
 Bonus question: what is the agent? The Agent is : is the primary means for pushing metrics and events into DataDog.  It is made up of three parts: Collector, Forwarder and dogstatsd. 
 
