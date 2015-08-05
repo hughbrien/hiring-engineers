@@ -1,3 +1,11 @@
+Sign up for Datadog, get the agent reporting metrics from your local machine. DONE
+Bonus question: what is the agent? The Agent is : is the primary means for pushing metrics and events into DataDog.  It is made up of three parts: Collector, Forwarder and dogstatsd. 
+
+Submit an event via the API? I have submitted several events via the HTTP REST API and the Email Plain Text and Email JSON interfaces.
+Get an event to appear in your email inbox (the email address you signed up for the account with)
+
+
+
 Your answers to the questions go here.
 Examples:
 
