@@ -21,3 +21,9 @@ Examples:
 @all – this will send a notification to all members of your organization.
 @yourname – this will notify the specific user named ‘yourname’.
 @test@test.com this will send an email to test@test.com.
+
+Using aggregration key to link multiple events.   This can be a nice use for correlation.  Ingrations with AppDynamics could use the Transaction ID to reference multiple Snapshots. 
+
+
+
+
