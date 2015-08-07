@@ -22,6 +22,13 @@ Examples:
 @yourname – this will notify the specific user named ‘yourname’.
 @test@test.com this will send an email to test@test.com.
 
+Created a Docker instance. 
+
+https://hub.docker.com/r/tutum/wordpress/
+Installed https://github.com/tutumcloud/lamp/blob/master/Dockerfile
+
+
+
 Using aggregration key to link multiple events.   This can be a nice use for correlation.  Ingrations with AppDynamics could use the Transaction ID to reference multiple Snapshots. 
 
 
