@@ -31,5 +31,9 @@ Created a Docker instance.
 https://hub.docker.com/r/tutum/wordpress/
 Installed https://github.com/tutumcloud/lamp/blob/master/Dockerfile
 
+Directly Edited vi /opt/datadog-agent/agent/config.py to get rid of the syslog configuration errors.  
+The error message for system may have something to do with the way Docker handles network sockets. 
 
+
+http://help.datadoghq.com/hc/en-us/requests/31252
 
