@@ -4,14 +4,14 @@ What does that really mean:
 
 You can capture EVERYTHING about your application in DataDog with respective to Performnace, Availibility, Business Success.
 
-
-
 Sign up for Datadog, get the agent reporting metrics from your local machine. DONE
 Bonus question: what is the agent? The Agent is : is the primary means for pushing metrics and events into DataDog.  It is made up of three parts: Collector, Forwarder and dogstatsd. 
 
 Submit an event via the API? I have submitted several events via the HTTP REST API and the Email Plain Text and Email JSON interfaces.
+
 Get an event to appear in your email inbox (the email address you signed up for the account with)
 
+https://www.evernote.com/l/AET5ew526KVOP4_qawaU_bToEbCWgTfU5zw
 
 
 Your answers to the questions go here.
@@ -22,9 +22,11 @@ Examples:
 @yourname – this will notify the specific user named ‘yourname’.
 @test@test.com this will send an email to test@test.com.
 
-Using aggregration key to link multiple events.   
-This can be a nice use for correlation.  
-Ingrations with AppDynamics could use the Transaction ID to reference multiple Snapshots. 
+Using aggregration key to link multiple events. I have linked multiple alerts From AppDynamics into single Event using the AppDynamics Policy ID.  Updates to the policy 
+
+https://app.datadoghq.com/event/stream?tags_execution=and&show_private=true&per_page=30&aggregate_up=true&use_date_happened=false&display_timeline=true&from_ts=1439013600000&live=false&is_zoomed=true&to_ts=1439024400000&is_auto=false&incident=true&only_discussed=false&no_user=false&page=0&bucket_size=180000
+
+This can be a nice use for correlation. Ingrations with AppDynamics could use the Transaction ID to reference multiple Snapshots.  
 
 Created a Docker instance. 
 
@@ -34,17 +36,12 @@ Installed https://github.com/tutumcloud/lamp/blob/master/Dockerfile
 Directly Edited vi /opt/datadog-agent/agent/config.py to get rid of the syslog configuration errors.  
 The error message for system may have something to do with the way Docker handles network sockets. 
 
-
 http://help.datadoghq.com/hc/en-us/requests/31252
-
-
 
 Updated Wordpress Docker to include DataDog Agent:
 
-
 Forked Wordpress Docker and updated the Container Dockerfile. 
 https://github.com/hughbrien/wordpress
-
 
 Created three Containers Wordpress Docker containers and install the Agents.   
 All three are up and running.  Still need to tweek Docker initialization to get Agent to Auto Start. 
