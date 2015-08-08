@@ -45,3 +45,6 @@ Updated Wordpress Docker to include DataDog Agent:
 Forked Wordpress Docker and updated the Container Dockerfile. 
 https://github.com/hughbrien/wordpress
 
+
+Created three Containers Wordpress Docker containers and install the Agents.   
+All three are up and running.  Still need to tweek Docker initialization to get Agent to Auto Start. 
