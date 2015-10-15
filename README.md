@@ -19,15 +19,17 @@ The collector runs checks on the current machine for whatever integrations you h
 Dogstatsd is a statsd backend server you can send custom metrics to from an application.
 The forwarder retrieves data from both dogstatsd and the collector and then queues it up to be sent to Datadog.
 
-
 * Submit an event via the API?  I have submitted several events via the HTTP REST API and the Email Plain Text and Email JSON interfaces. 
 * Get an event to appear in your email inbox (the email address you signed up for the account with)
 
 ### Level 2
 
 * Take a simple web app ([in any of our supported languages](http://docs.datadoghq.com/libraries/)) that you've already built and instrument your code with dogstatsd. This will create **metrics**.
+
 * While running a load test (see References) for a few minutes, visualize page views per second. Send us the link to this graph!
+*
 * Create a histogram to see the latency; also give us the link to the graph
+
 * Bonus points if your simple app includes a database/webserver/cache we support, and you are able to enable their "integrations" in Datadog
 * More bonus points for putting together more creative dashboards.
 
