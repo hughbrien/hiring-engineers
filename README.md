@@ -12,7 +12,14 @@ Don't forget to read the **References**.
 ### Level 1
 
 * Sign up for Datadog, get the agent reporting metrics from your local machine. DONE
-* Bonus question: what is the agent? The Agent is : 
+* Bonus question: what is the agent? 
+The Agent has three main parts: the collector, dogstatsd, and the forwarder.
+ The Agent is : The agent is severl process designed to do the following: 
+The collector runs checks on the current machine for whatever integrations you have and it will capture system metrics like memory and CPU.
+Dogstatsd is a statsd backend server you can send custom metrics to from an application.
+The forwarder retrieves data from both dogstatsd and the collector and then queues it up to be sent to Datadog.
+
+
 * Submit an event via the API?  I have submitted several events via the HTTP REST API and the Email Plain Text and Email JSON interfaces. 
 * Get an event to appear in your email inbox (the email address you signed up for the account with)
 
